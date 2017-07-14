@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		68B89E111E3E086F00D4F6FF /* libReactNativeTvosController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeTvosController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B89E111E3E086F00D4F6FF /* libReactNativeTvosController-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libReactNativeTvosController-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B89E141E3E087000D4F6FF /* ReactNativeTvosController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeTvosController.h; sourceTree = "<group>"; };
 		68B89E151E3E087000D4F6FF /* ReactNativeTvosController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeTvosController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 		68B89E121E3E086F00D4F6FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68B89E111E3E086F00D4F6FF /* libReactNativeTvosController.a */,
+				68B89E111E3E086F00D4F6FF /* libReactNativeTvosController-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68B89E101E3E086F00D4F6FF /* ReactNativeTvosController */ = {
+		68B89E101E3E086F00D4F6FF /* ReactNativeTvosController-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68B89E1A1E3E087000D4F6FF /* Build configuration list for PBXNativeTarget "ReactNativeTvosController" */;
+			buildConfigurationList = 68B89E1A1E3E087000D4F6FF /* Build configuration list for PBXNativeTarget "ReactNativeTvosController-tvOS" */;
 			buildPhases = (
 				68B89E0D1E3E086F00D4F6FF /* Sources */,
 				68B89E0E1E3E086F00D4F6FF /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeTvosController;
+			name = "ReactNativeTvosController-tvOS";
 			productName = ReactNativeTvosController;
-			productReference = 68B89E111E3E086F00D4F6FF /* libReactNativeTvosController.a */;
+			productReference = 68B89E111E3E086F00D4F6FF /* libReactNativeTvosController-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68B89E0C1E3E086F00D4F6FF /* Build configuration list for PBXProject "ReactNativeTvosController" */;
+			buildConfigurationList = 68B89E0C1E3E086F00D4F6FF /* Build configuration list for PBXProject "ReactNativeTvosController-tvOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68B89E101E3E086F00D4F6FF /* ReactNativeTvosController */,
+				68B89E101E3E086F00D4F6FF /* ReactNativeTvosController-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68B89E0C1E3E086F00D4F6FF /* Build configuration list for PBXProject "ReactNativeTvosController" */ = {
+		68B89E0C1E3E086F00D4F6FF /* Build configuration list for PBXProject "ReactNativeTvosController-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B89E181E3E087000D4F6FF /* Debug */,
@@ -264,13 +264,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68B89E1A1E3E087000D4F6FF /* Build configuration list for PBXNativeTarget "ReactNativeTvosController" */ = {
+		68B89E1A1E3E087000D4F6FF /* Build configuration list for PBXNativeTarget "ReactNativeTvosController-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68B89E1B1E3E087000D4F6FF /* Debug */,
 				68B89E1C1E3E087000D4F6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
